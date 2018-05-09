@@ -1,7 +1,7 @@
 {
-   "name": "elara-boilerplate",
+   "name": "kore-wallet-generator",
    "version": "1.0.0",
-   "description": "A dead-simple react/sass boilerplate.",
+   "description": "A mnemonic Kore wallet generator",
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "webpack-dev-server --host 0.0.0.0 --port 8080 --config ./config/webpack.dev.js",
@@ -9,7 +9,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Kinark/Elara.git"
+      "url": "git+https://github.com/Plorark/Kore-Wallet-Generator.git"
    },
    "keywords": [
       "boilerplate",
@@ -17,10 +17,10 @@
       "sass"
    ],
    "bugs": {
-      "url": "https://github.com/Kinark/Elara/issues"
+      "url": "https://github.com/Plorark/Kore-Wallet-Generator/issues"
    },
-   "homepage": "https://github.com/Kinark/Elara#readme",
-   "author": "Igor Marcossi",
+   "homepage": "https://github.com/Plorark/Kore-Wallet-Generator#readme",
+   "author": "Plorark",
    "license": "ISC",
    "devDependencies": {
       "babel-core": "^6.26.0",
@@ -46,6 +46,8 @@
    },
    "dependencies": {
       "axios": "^0.18.0",
+      "bitcore-lib-kore": "^0.15.2",
+      "bitcore-mnemonic-kore": "^1.5.2",
       "prop-types": "^15.6.0",
       "react": "^16.2.0",
       "react-dom": "^16.2.0",

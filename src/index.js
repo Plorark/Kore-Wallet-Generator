@@ -5,8 +5,8 @@ import { Metas } from '~/components/Metas';
 import Favicon from '~/components/Favicon';
 // import { BrowserRouter, Route } from 'react-router-dom';
 
-const title = "Sample Website";
-const description = "A sample website.";
+const title = "Kore Wallet Generator";
+const description = "A simple mnemonic Kore wallet generator";
 // const cover = "";
 
 ReactDOM.render(

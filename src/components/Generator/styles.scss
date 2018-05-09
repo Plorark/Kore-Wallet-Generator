@@ -1,0 +1,26 @@
+.generator {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.coolBtn {
+   border: none;
+   background-color: #E62D00;
+   padding: 10px 20px;
+   color: #fafafa;
+   text-transform: uppercase;
+   cursor: pointer;
+   border-radius: 100px;
+   &:focus {
+      outline: none;
+   }
+   &:hover {
+      background-color: #ca2800;
+   }
+   &:active {
+      background-color: #a02000
+   }
+}

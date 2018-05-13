@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from '~/App';
 import { Metas } from '~/components/Metas';
 import Favicon from '~/components/Favicon';
+import 'milligram'
 // import { BrowserRouter, Route } from 'react-router-dom';
 
 const title = "Kore Wallet Generator";

@@ -32,7 +32,8 @@ process.env.NODE_ENV = 'production';
 
 module.exports = merge(common, {
    output: {
-      path: path.resolve(__dirname, '../dist'),
+      publicPath: '/Kore-Wallet-Generator/',
+      path: path.resolve(__dirname, '../docs'),
       filename: 'static/js/bundle.js',
    },
    module: {
@@ -44,7 +45,7 @@ module.exports = merge(common, {
       ],
    },
    plugins: [
-      new CleanWebpackPlugin(['dist/*.*'], {root: path.resolve(__dirname, '../')}),
+      new CleanWebpackPlugin(['docs/*.*'], {root: path.resolve(__dirname, '../')}),
       new ImageminPlugin(ImageminPluginConfig),
       new UglifyJsPlugin(),
       new ManifestPlugin(ManifestPluginConfig),
